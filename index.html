@@ -2,11 +2,11 @@
 <html lang="en">
 
   <head>
-    <!-- Required meta tags -->
+    <!-- Required meta tags for Bootstrap -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS and else -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/pipboy-app.css">
     <title>ADR PipBoy</title>
@@ -17,15 +17,15 @@
     <header>
 
       <!-- An extended toggleable navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">STAT</a>
+                <a class="nav-link active" href="#">STAT</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">INV</a>
@@ -48,25 +48,25 @@
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" id="subTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="status-tab" data-bs-toggle="tab" data-bs-target="#status" type="button" role="tab" aria-controls="status" aria-selected="true">Status</button>
+          <button class="nav-link active" id="status-tab" data-bs-toggle="tab" data-bs-target="#status" type="button" role="tab">Status</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="special-tab" data-bs-toggle="tab" data-bs-target="#special" type="button" role="tab" aria-controls="special" aria-selected="false">Special</button>
+          <button class="nav-link" id="special-tab" data-bs-toggle="tab" data-bs-target="#special" type="button" role="tab">Special</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="perks-tab" data-bs-toggle="tab" data-bs-target="#perks" type="button" role="tab" aria-controls="perks" aria-selected="false">Perks</button>
+          <button class="nav-link" id="perks-tab" data-bs-toggle="tab" data-bs-target="#perks" type="button" role="tab">Perks</button>
         </li>
       </ul>
 
       <!-- Tab panes -->
       <div class="tab-content">
-        <div class="tab-pane active" id="status" role="tabpanel" aria-labelledby="status-tab">
+        <div class="tab-pane active" id="status" role="tabpanel">
           <div class="text-center mt-5">
             <img src="images/Female.png" alt="Status Image" />
           </div>
         </div>
-        <div class="tab-pane" id="special" role="tabpanel" aria-labelledby="special-tab">SPECIAL</div>
-        <div class="tab-pane" id="perks" role="tabpanel" aria-labelledby="perks-tab">PERKS</div>
+        <div class="tab-pane" id="special" role="tabpanel">SPECIAL</div>
+        <div class="tab-pane" id="perks" role="tabpanel">PERKS</div>
       </div>
     </header>
 
@@ -74,6 +74,7 @@
       
     </main>
 
+    <!-- Footerbar that contains infiormations about the character -->
     <footer>
       <div class="container">
         <div class="row">

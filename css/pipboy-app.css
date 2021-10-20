@@ -9,3 +9,15 @@ footer{
     width: calc(100% - 40px);
     margin: 20px;
 }
+
+body, .nav-link{
+    color: #24ff1f !important;
+}
+
+body{
+    background-color: #272b23;
+}
+
+.nav-link.active{
+    background-color: #272b23 !important;
+}
