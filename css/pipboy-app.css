@@ -10,6 +10,9 @@ footer{
     bottom: 0;
     width: calc(100% - 40px);
     margin: 20px;
+    background-color: #23ff1f15;
+    padding: 1%;
+
 }
 
 body, .nav-link{
@@ -36,8 +39,29 @@ body::after{
 
 .nav-link.active{
     background-color: #272b23 !important;
+    border: none;
+    opacity: .6;
 }
 
 .navbar{
     border-bottom: 2px solid;
+}
+
+.nav.nav-tabs{
+    border: none;
+}
+
+.main-nav-link{
+    border: 1px solid transparent;
+}
+
+.main-nav-link:hover{
+    border: 1px solid white;
+}
+
+.progress{
+    height: 5px;
+}
+.progress-bar{
+    background-color: #24ff1f;
 }
