@@ -1,0 +1,11 @@
+.text-center img{
+    filter: grayscale(1) sepia(100%) hue-rotate(
+55deg) saturate(7) brightness(1) contrast(0.8);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 40px);
+    margin: 20px;
+}
