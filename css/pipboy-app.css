@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 .text-center img{
     filter: grayscale(1) sepia(100%) hue-rotate(
 55deg) saturate(7) brightness(1) contrast(0.8);
@@ -16,8 +18,26 @@ body, .nav-link{
 
 body{
     background-color: #272b23;
+    font-family: 'Share Tech Mono';
+}
+
+body::after{
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: repeating-linear-gradient(0deg, rgba(0,0,0,.5), rgba(0,0,0,.4) 1px, transparent 1px, transparent 2px);
+    opacity: .3;
+    z-index: 100000;
+    pointer-events: none;
 }
 
 .nav-link.active{
     background-color: #272b23 !important;
+}
+
+.navbar{
+    border-bottom: 2px solid;
 }
