@@ -35,7 +35,6 @@ body, .nav-link{
 
 .icon{
     width: 150%;
-    
 }
 
 body{
@@ -99,4 +98,24 @@ body::after{
 #status{
     max-width: 400px;
     margin:auto;
+}
+
+.item-list li a{
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+    text-decoration: none;
+    color: #24ff1f;
+    padding: 10px;
+}
+
+.item-list li a:hover{
+    background: #24ff1f;
+    color: #272b23;
+}
+
+.item-list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
