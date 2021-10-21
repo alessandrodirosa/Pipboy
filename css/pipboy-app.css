@@ -27,6 +27,17 @@ body, .nav-link{
     color: #24ff1f !important;
 }
 
+.img-responsive{
+    width: 100%;
+    filter: grayscale(1) sepia(100%) hue-rotate(
+55deg) saturate(7) brightness(1) contrast(0.8);
+}
+
+.icon{
+    width: 150%;
+    
+}
+
 body{
     background-color: #272b23;
     font-family: 'Share Tech Mono';
