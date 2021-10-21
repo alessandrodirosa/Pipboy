@@ -23,4 +23,25 @@ $(document).ready(function(){
         "value": 144}
     ];
 
+    $('.item-list a').hover(function(e){
+        var currentItem = $(e.currentTarget).attr('id');
+        console.log(currentItem);
+
+        var container = $('.item-values');
+        weapons.forEach(element => {
+            if(element.name == currentItem){
+                container.find('.damage-value').html(element.damage);
+                container.find('.range-value').html(element.range);
+                container.find('.firerate-value').html(element.fireRate);
+                container.find('.accuracy-value').html(element.accuracy);
+                container.find('.weight-value').html(element.weight);
+                container.find('.value-value').html(element.value);
+            }
+        });
+    });
+
+    $('.item-list a').click(function(e){
+        $('.item-list a').removeClass('selected-item');
+        $(e.currentTarget).addClass('selected-item');
+    })
 });

@@ -114,8 +114,17 @@ body::after{
     color: #272b23;
 }
 
+.selected-item{
+    border-bottom: 1px solid #24ff1f;
+}
+
 .item-list{
     list-style: none;
     margin: 0px;
     padding: 0px;
+    width: 300px;
+}
+
+.item-values{
+    background-color: #23ff1f15 ;
 }
