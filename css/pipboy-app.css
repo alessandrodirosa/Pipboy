@@ -14,6 +14,15 @@ footer{
     padding: 1%;
 }
 
+.damage-energy-bar{
+    background-color: transparent;
+}
+
+.col-2.colored, .col-1.colored{
+    background-color: #23ff1f15;
+    margin-right: 2px;
+}
+
 body, .nav-link{
     color: #24ff1f !important;
 }
