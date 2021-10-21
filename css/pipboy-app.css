@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.text-center img{
+    filter: grayscale(1) sepia(100%) hue-rotate(
+55deg) saturate(7) brightness(1) contrast(0.8);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 40px);
+    margin: 20px;
+    background-color: #23ff1f15;
+    padding: 1%;
+}
+
+.damage-energy-bar{
+    background-color: transparent;
+}
+
+.col-2.colored, .col-1.colored{
+    background-color: #23ff1f15;
+    margin-right: 2px;
+}
+
+body, .nav-link{
+    color: #24ff1f !important;
+}
+
+.img-responsive{
+    width: 100%;
+    filter: grayscale(1) sepia(100%) hue-rotate(
+55deg) saturate(7) brightness(1) contrast(0.8);
+}
+
+.icon{
+    width: 150%;
+}
+
+body{
+    background-color: #272b23;
+    font-family: 'Share Tech Mono';
+    overflow: hidden;
+}
+
+body::after{
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: repeating-linear-gradient(0deg, rgba(0,0,0,.5), rgba(0,0,0,.4) 1px, transparent 1px, transparent 2px);
+    opacity: .3;
+    z-index: 100000;
+    pointer-events: none;
+}
+
+.nav-link.active{
+    background-color: #272b23 !important;
+    border: none;
+    opacity: .6;
+}
+
+.navbar{
+    border-bottom: 2px solid;
+}
+
+.nav.nav-tabs{
+    border: none;
+}
+
+.main-nav-link{
+    border: 1px solid transparent;
+}
+
+.main-nav-link:hover{
+    border: 1px solid white;
+}
+
+.progress{
+    height: 5px;
+}
+.progress-bar{
+    background-color: #24ff1f;
+}
+
+.stat-bar{
+    width: 60px;
+    margin:auto;
+}
+
+.status-image{
+    width: 100px;
+    height: 200px;
+}
+
+#status{
+    max-width: 400px;
+    margin:auto;
+}
+
+.item-list li a{
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+    text-decoration: none;
+    color: #24ff1f;
+    padding: 10px;
+}
+
+.item-list li a:hover{
+    background: #24ff1f;
+    color: #272b23;
+}
+
+.selected-item{
+    border-bottom: 1px solid #24ff1f;
+}
+
+.item-list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+}
+
+.item-values{
+    background-color: #23ff1f15 ;
+}
